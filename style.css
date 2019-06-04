@@ -1,0 +1,228 @@
+*{
+	box-sizing: border-box;	
+}
+
+body{
+	margin: 0;
+	background-image: linear-gradient(to left top, #00acee, #00baf2, #00c8f2, #00d6f0, #12e2eb);
+	/*background-color: #00acee;*/
+	font-family: Asap,sans-serif;
+}
+
+img{
+	width: 150px;
+}
+
+.secseg{
+	background-color: white;	
+}
+
+.one{
+	color: white;
+	text-decoration: none;
+}
+
+.two{
+	color: white;
+	text-decoration: none;
+
+}
+
+.three{
+	color: white;
+	text-decoration: none;
+
+}
+
+.why{
+	text-align: center;
+	color: white;
+	font-size: 18px;
+}
+
+.learn{
+	text-align: center;
+	color: white;
+	font-size: 40px;
+	word-spacing: 10px;
+}
+
+.umm{
+	text-align: center;
+	color: white;
+	width: 70px;
+	/*height: 10px;*/
+	font-size: 15px;
+	padding: 12px;
+	margin-left: 30px;
+	border-radius: 50px;
+	background-color: green;
+    /*margin-top: 7px;*/
+    text-decoration: none;
+
+}
+
+.ummm{
+	text-align: center;
+	color: white;
+	width: 5%;
+	padding: 10px;
+	font-size: 15px;
+	border-radius: 50px;
+	background-color: #00c8f2;
+	border: 1px solid white;
+    /*margin-top: 7px;*/
+    text-decoration: none;
+    margin-left: 70px;
+}
+
+.ummmm{
+	text-align: center;
+	color: white;
+	width: 50px;
+	height: 10px;
+	font-size: 15px;
+	padding: 12px;
+	border-radius: 50px;
+	margin-left: 19px;
+	background-color: green;
+    /*margin-top: 7px;*/
+    text-decoration: none;
+}
+
+.imgtwo{
+	margin-left: 60px;
+}
+
+.imgthree{
+	margin-left: 60px;
+}
+
+.imgfour{
+	margin-left: 60px;
+}
+
+.imgfive{
+	width: 250px;
+}
+
+.how{
+	text-align: center;
+	color: white;
+	font-size: 18px;
+}
+
+p{
+	color: white;
+	font-size: 15px;
+}
+
+.well{
+	margin-top: 40px;
+}
+
+.very{
+	margin-top: 40px;
+}
+
+.sticky{
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
+
+.frin{
+	font-size: 20px;
+	word-spacing: 5px;
+}
+
+.frig{
+	font-size: 20px;
+	text-align: center;
+}
+
+.foot{
+	font-size: 12px;
+}
+
+.toof{
+	font-size: 12px;
+}
+
+.baby{
+	color: white;
+	text-decoration: underline dotted white;
+
+}
+
+.click{
+	text-align: center;
+}
+
+.foot{
+	text-decoration: underline dotted white;
+	color: white;
+	font-size: 12px;
+}
+
+.wan{
+	margin-top: 20px;
+}
+
+.too{
+	margin-top: 5px;
+}
+
+.col-1{
+	width: 8.33%;
+}
+
+.col-2{
+	width: 16.66%;
+}
+
+.col-3{
+	width: 25%;
+}
+
+.col-4{
+	width: 33.32%;
+}
+
+.col-5{
+	width: 41.65%;
+}
+
+.col-6{
+	width: 50%;
+}
+
+.col-7{
+	width: 58.97%;
+}
+
+.col-8{
+	width: 66.64%;
+}
+
+.col-9{
+	width: 75%;
+}
+
+.col-10{
+	width: 83.3%;
+}
+
+.col-11{
+	width: 92.29%;
+}
+
+.col-12{
+	width: 100%;
+}
+
+.col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12{
+	float: left;
+	padding: 12px;
+	margin-bottom: ;
+	/*border: 2px solid deeppink ;*/
