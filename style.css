@@ -4,9 +4,21 @@
 
 body{
 	margin: 0;
-	background-image: linear-gradient(to left top, #00acee, #00baf2, #00c8f2, #00d6f0, #12e2eb);
+	background: linear-gradient(270deg,#0077BE,#33c3f0);
 	/*background-color: #00acee;*/
 	font-family: Asap,sans-serif;
+}
+
+@media only screen and (max-width: 600px) {
+    nav {
+        font-size: 0.5em;
+        padding: 0;
+    }
+}
+
+nav{
+		background: linear-gradient(270deg,#0077BE,#33c3f0);
+
 }
 
 img{
@@ -14,6 +26,14 @@ img{
 }
 
 .secseg{
+	background-color: white;	
+}
+
+.secbox{
+	background-color: white;	
+}
+
+.secboxx{
 	background-color: white;	
 }
 
@@ -38,6 +58,8 @@ img{
 	text-align: center;
 	color: white;
 	font-size: 18px;
+	word-spacing: 5px;
+
 }
 
 .learn{
@@ -49,32 +71,41 @@ img{
 
 .umm{
 	text-align: center;
+	/*display: inline-block;*/
 	color: white;
-	width: 70px;
+	
 	/*height: 10px;*/
 	font-size: 15px;
-	padding: 12px;
-	margin-left: 30px;
-	border-radius: 50px;
-	background-color: green;
+	padding: 6pt 20pt;
+	border: 1px solid #33c3f0;
+	margin: 0;
+	line-height: 1.7;
+	border-radius: 30px;
+	background-color: #06d19c;
     /*margin-top: 7px;*/
     text-decoration: none;
+    float: left;
 
 }
 
 .ummm{
 	text-align: center;
+	/*display: inline-block;*/
 	color: white;
-	width: 5%;
-	padding: 10px;
+	
+	padding: 6pt 20pt;
+	/*margin: 0;*/
+	margin-left: 50px;
 	font-size: 15px;
-	border-radius: 50px;
-	background-color: #00c8f2;
+	line-height: 1.7;
+	float: left;
+	border-radius: 30px;
+	background-color: transparent;
 	border: 1px solid white;
     /*margin-top: 7px;*/
     text-decoration: none;
-    margin-left: 70px;
 }
+
 
 .ummmm{
 	text-align: center;
@@ -85,7 +116,7 @@ img{
 	padding: 12px;
 	border-radius: 50px;
 	margin-left: 19px;
-	background-color: green;
+	background-color: #06d19c;
     /*margin-top: 7px;*/
     text-decoration: none;
 }
@@ -108,13 +139,18 @@ img{
 
 .how{
 	text-align: center;
-	color: white;
+	color: black;
 	font-size: 18px;
 }
 
 p{
-	color: white;
+	color: grey;
 	font-size: 15px;
+	word-spacing: 5px;
+}
+
+.box{
+	background-color: rgb(247, 247, 247);
 }
 
 .well{
@@ -129,15 +165,23 @@ p{
 	position: fixed;
 	top: 0;
 	width: 100%;
+    /*position: fixed;*/
+    z-index: 100;
+    /*width: 100%;*/
+    background-color: #33c3f0;
+    -webkit-transition: .7s;
+    transition: .7s;
 }
 
 .frin{
 	font-size: 20px;
 	word-spacing: 5px;
+	color: black;
 }
 
 .frig{
 	font-size: 20px;
+	color: white;
 	text-align: center;
 }
 
@@ -150,13 +194,21 @@ p{
 }
 
 .baby{
-	color: white;
+	color: grey;
 	text-decoration: underline dotted white;
 
 }
 
 .click{
 	text-align: center;
+}
+
+.clickk{
+	color: white;
+}
+
+.style{
+	background-color: #333c44;
 }
 
 .foot{
@@ -219,6 +271,7 @@ p{
 
 .col-12{
 	width: 100%;
+
 }
 
 .col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12{
